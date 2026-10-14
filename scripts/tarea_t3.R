@@ -1,7 +1,12 @@
 
 # Autor: Francisca Quezada
 # Fecha: 2026-10-13
-# Que hace:
+# Que hace:estima, compara y diagnostica modelos de regresión lineal con broom y dplyr.
+# Parte A (CASEN): ingreso según educación, experiencia y género; tabla de coeficientes,
+# comparación de tres modelos, diagnóstico de observaciones influyentes e interpretación.
+# Parte B (ENE, ocupados): horas habituales de cuenta propia vs asalariados privados,
+# con controles, regresión por región, sensibilidad a los centinelas e interpretación.
+# Exporta los resultados a data/processed/. Las relaciones son asociaciones, no causales.
 # Regresión económica: CASEN y ENE
 
 library(dplyr)
